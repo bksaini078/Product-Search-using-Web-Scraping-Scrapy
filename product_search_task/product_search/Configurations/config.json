@@ -1,0 +1,18 @@
+{
+    "allowed_domains" :["www.wollplatz.de"],
+    "start_urls" : ["https://www.wollplatz.de/"],
+    "restrict_css" : ["#menubar101 > ul > li:nth-child(2) > div > ul > li","h3 > a"],
+    "callback" : [false,true],
+    "follow": [true,false],
+    "product_name":{"response":"css","selector":"h1 ::text"},
+    "brand_name": {"response":"xpath","selector":"//span[@itemprop='brand']//span/text()"},
+    "product_details":
+    {
+    "price": {"response":"xpath","selector":"//span[@class='product-price-amount']/text()"},
+    "Delivery Time": "NA",
+    "Needle Size":{"response":"xpath","selector":"//div[@id='pdetailTableSpecs']//table//tr[td[text()='Nadelstärke']]//td[2]/text()"},
+    "Composition":{"response":"xpath","selector":"//div[@id='pdetailTableSpecs']//table//tr[td[text()='Zusammenstellung']]//td[2]/text()"},
+    "Gstin":{"response":"xpath","selector":"//span[@itemprop='gtin13']/text()"}
+    }
+    
+}

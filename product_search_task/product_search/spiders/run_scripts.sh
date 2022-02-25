@@ -1,0 +1,1 @@
+scrapy runspider product_search/spiders/scrap_product.py -o product_search/Database/output.csv -t csv

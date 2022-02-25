@@ -1,0 +1,239 @@
+2022-02-22 07:16:43 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: product_search)
+2022-02-22 07:16:43 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.4, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.1.0, Python 3.9.10 (main, Jan 15 2022, 11:40:53) - [Clang 13.0.0 (clang-1300.0.29.3)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1m  14 Dec 2021), cryptography 36.0.1, Platform macOS-12.2.1-arm64-arm-64bit
+2022-02-22 07:16:44 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'product_search',
+ 'CONCURRENT_REQUESTS': 32,
+ 'LOG_FILE': '/Users/teetusaini/Documents/Job_search/tasks/marktPlot/MarkPilot_task/product_search/product_search/spiders/product_scrape.log',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'scrapeBooksInfo.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_LOADER_WARN_ONLY': True,
+ 'SPIDER_MODULES': ['scrapeBooksInfo.spiders']}
+2022-02-22 07:16:44 [scrapy.extensions.telnet] INFO: Telnet Password: cf2dbd5436bff69d
+2022-02-22 07:16:44 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2022-02-22 07:16:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-02-22 07:16:44 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-02-22 07:16:44 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-02-22 07:16:44 [scrapy.core.engine] INFO: Spider opened
+2022-02-22 07:16:44 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-02-22 07:16:44 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2022-02-22 07:17:14 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2022-02-22 07:17:14 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2022-02-22 07:17:15 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2022-02-22 07:17:16 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: product_search)
+2022-02-22 07:17:16 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.4, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.1.0, Python 3.9.10 (main, Jan 15 2022, 11:40:53) - [Clang 13.0.0 (clang-1300.0.29.3)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1m  14 Dec 2021), cryptography 36.0.1, Platform macOS-12.2.1-arm64-arm-64bit
+2022-02-22 07:17:16 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'product_search',
+ 'CONCURRENT_REQUESTS': 32,
+ 'LOG_FILE': '/Users/teetusaini/Documents/Job_search/tasks/marktPlot/MarkPilot_task/product_search/product_search/spiders/product_scrape.log',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'product_search.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_LOADER_WARN_ONLY': True,
+ 'SPIDER_MODULES': ['product_search.spiders']}
+2022-02-22 07:17:16 [scrapy.extensions.telnet] INFO: Telnet Password: 33bac7e2ef823d09
+2022-02-22 07:17:16 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2022-02-22 07:17:16 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-02-22 07:17:16 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-02-22 07:17:16 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-02-22 07:17:16 [scrapy.core.engine] INFO: Spider opened
+2022-02-22 07:17:16 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-02-22 07:17:16 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2022-02-22 07:18:16 [scrapy.extensions.logstats] INFO: Crawled 93 pages (at 93 pages/min), scraped 59 items (at 59 items/min)
+2022-02-22 07:19:01 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2022-02-22 07:19:01 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2022-02-22 07:19:03 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2022-02-22 07:19:08 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: product_search)
+2022-02-22 07:19:08 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.4, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.1.0, Python 3.9.10 (main, Jan 15 2022, 11:40:53) - [Clang 13.0.0 (clang-1300.0.29.3)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1m  14 Dec 2021), cryptography 36.0.1, Platform macOS-12.2.1-arm64-arm-64bit
+2022-02-22 07:19:08 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'product_search',
+ 'CONCURRENT_REQUESTS': 32,
+ 'LOG_FILE': '/Users/teetusaini/Documents/Job_search/tasks/marktPlot/MarkPilot_task/product_search/product_search/spiders/product_scrape.log',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'product_search.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_LOADER_WARN_ONLY': True,
+ 'SPIDER_MODULES': ['product_search.spiders']}
+2022-02-22 07:19:08 [scrapy.extensions.telnet] INFO: Telnet Password: 402a387b52761ba8
+2022-02-22 07:19:08 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2022-02-22 07:19:08 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-02-22 07:19:08 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-02-22 07:19:08 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-02-22 07:19:08 [scrapy.core.engine] INFO: Spider opened
+2022-02-22 07:19:08 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-02-22 07:19:08 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2022-02-22 07:19:32 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2022-02-22 07:19:32 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2022-02-22 07:19:33 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2022-02-22 07:19:35 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: product_search)
+2022-02-22 07:19:35 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.4, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.1.0, Python 3.9.10 (main, Jan 15 2022, 11:40:53) - [Clang 13.0.0 (clang-1300.0.29.3)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1m  14 Dec 2021), cryptography 36.0.1, Platform macOS-12.2.1-arm64-arm-64bit
+2022-02-22 07:19:35 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'product_search',
+ 'LOG_FILE': '/Users/teetusaini/Documents/Job_search/tasks/marktPlot/MarkPilot_task/product_search/product_search/spiders/product_scrape.log',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'product_search.spiders',
+ 'SPIDER_LOADER_WARN_ONLY': True,
+ 'SPIDER_MODULES': ['product_search.spiders']}
+2022-02-22 07:19:35 [scrapy.extensions.telnet] INFO: Telnet Password: 8112c67f1fb1000e
+2022-02-22 07:19:35 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2022-02-22 07:19:35 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-02-22 07:19:35 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-02-22 07:19:35 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-02-22 07:19:35 [scrapy.core.engine] INFO: Spider opened
+2022-02-22 07:19:35 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-02-22 07:19:35 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2022-02-22 07:19:41 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2022-02-22 07:19:41 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2022-02-22 07:19:41 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2022-02-22 07:22:15 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: product_search)
+2022-02-22 07:22:15 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.4, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.1.0, Python 3.9.10 (main, Jan 15 2022, 11:40:53) - [Clang 13.0.0 (clang-1300.0.29.3)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1m  14 Dec 2021), cryptography 36.0.1, Platform macOS-12.2.1-arm64-arm-64bit
+2022-02-22 07:22:15 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'product_search',
+ 'CONCURRENT_REQUESTS': 10,
+ 'LOG_FILE': '/Users/teetusaini/Documents/Job_search/tasks/marktPlot/MarkPilot_task/product_search/product_search/spiders/product_scrape.log',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'product_search.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_LOADER_WARN_ONLY': True,
+ 'SPIDER_MODULES': ['product_search.spiders']}
+2022-02-22 07:22:15 [scrapy.extensions.telnet] INFO: Telnet Password: 45d25f3694e5da96
+2022-02-22 07:22:15 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2022-02-22 07:22:15 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-02-22 07:22:15 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-02-22 07:22:15 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-02-22 07:22:15 [scrapy.core.engine] INFO: Spider opened
+2022-02-22 07:22:15 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-02-22 07:22:15 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2022-02-22 07:22:17 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/wolle/pink-label/pink-label-hugg
+2022-02-22 07:22:18 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/pakete/haekelpakete/valentinsbaer-i-love-you-haekelpaket
+2022-02-22 07:22:19 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/pakete/strickpakete/traumdecke-60-kal-strickpaket
+2022-02-22 07:22:20 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/pakete/haekelpakete/katia-bunny-blanket-haekelpaket
+2022-02-22 07:22:21 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/pakete/yarn-and-colors-colorful-christmas-wall-hanging-haekelpaket
+2022-02-22 07:22:22 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/zubehoer/kissenfuellungen/yarn-and-colors-innenkissen-viereckig-50cm-x-50cm
+2022-02-22 07:22:23 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/zubehoer/kissenfuellungen/yarn-and-colors-innenkissen-viereckig-40cm-x-40cm
+2022-02-22 07:22:23 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/zubehoer/kissenfuellungen/yarn-and-colors-innenkissen-rund-50cm
+2022-02-22 07:22:25 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/zubehoer/kissenfuellungen/hoooked-100-recycling-baumwoll-fuellung
+2022-02-22 07:22:27 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/zubehor/lampen/purelite-vergrosserungslampe-2-in-1-led
+2022-02-22 07:22:27 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/zubehoer/haken-oesen/prym-pelzhaken-schwarz
+2022-02-22 07:22:28 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/amigurumi/clips/holz-schnullerclip
+2022-02-22 07:22:29 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/zubehoer/strick-haekel-zubehoer/rico-punch-needle-textilkleber
+2022-02-22 07:22:30 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/zubehor/lampen/wollplatz-weihnachtsbeleuchtung
+2022-02-22 07:22:31 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/zubehoer/strick-haekel-zubehoer/antirutsch-fuer-socken
+2022-02-22 07:22:32 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/amigurumi/ringe/beisstier-holz-schaf
+2022-02-22 07:22:32 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/amigurumi/ringe/beisstier-holz-baer
+2022-02-22 07:22:33 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/amigurumi/ringe/beissringe-herchen
+2022-02-22 07:22:34 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/amigurumi/clips/durable-schnullerclip-holz-2-stueck
+2022-02-22 07:22:35 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/amigurumi/durable-beissring-holz-windmuehle
+2022-02-22 07:22:36 [scrap_product] INFO: parsing the current book detail from this https://www.wollplatz.de/amigurumi/ringe/durable-beissring-holz-baby-girl
+2022-02-22 07:22:36 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2022-02-22 07:22:36 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2022-02-22 07:22:36 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown

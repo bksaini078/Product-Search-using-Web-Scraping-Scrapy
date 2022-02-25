@@ -1,0 +1,12 @@
+Product_Name,Brand,price,Delivery Time,Needle Size,Composition,Gstin
+Missouri 1 White,Katia,"3,44",NA,"2,5-3,5 mm",60% Katoen & 40% Acryl,8435407911826
+Polyester Nähgarn 200m 000,Gütermann,"3,69",NA,,100% Polyester,4008015026127
+Natura XL 02 Black,DMC,"8,46",NA,8 mm,100% Baumwolle,0077540622641
+Baby Merino Mix 17 Beige,Drops,"2,61",NA,3 mm,100% Merinowolle,7071723002810
+Coral Mini 203 Light pink,Durable,"1,18",NA,"2,5 - 3,5 mm",100% Mercerisierte Baumwolle,8715779302249
+Product_Name,Brand,price,Delivery Time,Needle Size,Composition,Gstin,url
+Polyester Nähgarn 200m 000,Gütermann,"3,69",NA,,100% Polyester,4008015026127,https://www.wollplatz.de/wolle/gutermann/guetermann-polyester-naehgarn-200m
+Missouri 1 White,Katia,"3,44",NA,"2,5-3,5 mm",60% Katoen & 40% Acryl,8435407911826,https://www.wollplatz.de/wolle/katia/katia-missouri
+Natura XL 02 Black,DMC,"8,46",NA,8 mm,100% Baumwolle,0077540622641,https://www.wollplatz.de/wolle/dmc/dmc-natura-xl
+Baby Merino Mix 17 Beige,Drops,"2,61",NA,3 mm,100% Merinowolle,7071723002810,https://www.wollplatz.de/wolle/drops/drops-baby-merino-mix
+Coral Mini 203 Light pink,Durable,"1,18",NA,"2,5 - 3,5 mm",100% Mercerisierte Baumwolle,8715779302249,https://www.wollplatz.de/wolle/durable/durable-coral-mini
