@@ -5,8 +5,7 @@ Important folders and files details to run the the code.
 
 
     Product_Search
-
-    Configurations--> Contains configuration detials for the experiment and modify/add as per requirements.
+        Configurations--> Contains configuration detials for the experiment and modify/add as per requirements.
         product_details.xlsx --> contain product details, add the brand and product name here.
         config.json-->  Define rules, selectors, and product details, you want to search. Add/Modify accordingly.
 
@@ -24,9 +23,9 @@ Important folders and files details to run the the code.
 
 
 
-reference: 
-you can access docker.  
-
+Reference: 
+Docker image available
+```
 bksaini078/product_search_scrap:latest
-
 docker run -it -p 5432:5432 bksaini078/product_search_scrap:latest
+```
