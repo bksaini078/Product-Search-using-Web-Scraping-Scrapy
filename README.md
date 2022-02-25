@@ -26,5 +26,7 @@ Important folders and files details to run the the code.
 
 reference: 
 you can access docker.  
+
 bksaini078/product_search_scrap:latest
+
 docker run -it -p 5432:5432 bksaini078/product_search_scrap:latest
